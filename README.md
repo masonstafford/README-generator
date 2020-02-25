@@ -25,6 +25,9 @@ node index.js
  ![readme-pt2](https://user-images.githubusercontent.com/46834613/75219927-2958ee80-576c-11ea-843f-35fa4bb0c605.png)
 
 
+## Gif of working generator:
+![Gif](./img/working-gif.gif)
+
 
  If you have any questions please contact masonstafford at their address masonstafford00@gmail.com
 
