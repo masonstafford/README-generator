@@ -1,9 +1,9 @@
 
-  # Project 
+  # Title 
   
   ![license badge](https://img.shields.io/badge/license-MIT-blueviolet?style=flat-square&logo=appveyor)
   
- > ## does stuff...
+ > ## does stuff
   
   
   ## Table of Contents
@@ -24,13 +24,13 @@ npm i
 ```
 
 ## Usage
-nothing!
+
 
 ## License
 #### *This project is licensed under the MIT license.*
 
 ## Contributing
-nothing!
+
 
 ## Tests
 
@@ -43,8 +43,8 @@ npm test
 ## Questions
 
 
-![profile picture](https://avatars0.githubusercontent.com/u/46834613?v=4)
+![profile picture](https://avatars1.githubusercontent.com/u/28030467?v=4)
 
-If you have any questions please contact masonstafford at their address test@test.com
+If you have any questions please contact MaxwellAllee at their address test@test.com
 
 ---

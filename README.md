@@ -26,7 +26,7 @@ node index.js
 
 
 ## Gif of working generator:
-![Gif](./img/working-gif.gif)
+![Gif](./develope/img/working-gif.gif)
 
 
  If you have any questions please contact masonstafford at their address masonstafford00@gmail.com
