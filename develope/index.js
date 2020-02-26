@@ -1,6 +1,6 @@
 const inquirer = require("inquirer")
 const fs = require("fs")
-const api = require('./utils/api.js')
+const {getUser} = require('./utils/api.js')
 const generateMarkdown = require('./utils/generateMarkdown')
 
 const questions = [
@@ -55,7 +55,7 @@ const questions = [
 ]
 function init() {
     inquirer.prompt(questions).then(results => {
-        api.getUser(results.github).then(({ data }) => {
+        getUser(results.github).then(({ data }) => {
             console.log(data)
             fs.writeFile('test.md', generateMarkdown({ ...data, ...results }), function (err) {
                 if (err) {
@@ -63,10 +63,7 @@ function init() {
                 }
                 console.log("All Done!!");
             });
-
-
         })
-    
     });
 }
 init();
